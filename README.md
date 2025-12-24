@@ -1,3 +1,4 @@
+
 # AI-interactive-app
 
 一个集成了 AI 交互、音乐播放和动态时钟的交互式应用，支持桌面端与移动端适配，提供直观友好的用户体验。
@@ -20,6 +21,7 @@
 
 ## 项目结构（概览）
 
+```text
 AI-interactive-app/
 ├── .vs/                  # Visual Studio 配置文件
 ├── public/               # 前端静态资源
@@ -31,6 +33,7 @@ AI-interactive-app/
 ├── .env                  # 环境变量配置（含敏感信息，不纳入版本控制）
 ├── package.json          # 项目依赖配置
 └── package-lock.json     # 依赖版本锁定文件
+```
 
 ## 安装与启动
 
@@ -125,5 +128,6 @@ node server.js
 ## 许可证
 
 MIT
+
 
 
